@@ -248,7 +248,7 @@ example.plots <- function (data) {
 #Download movement data from the CEFAS DataHub and save.
 #Source data from: https://doi.org/10.14466/CefasDataHub.54
 #First request the data by clicking on 'Download as CSV', then enter your email. 
-#You'll recieve an email containing the licence information and the download link.
+#You'll receive an email containing the licence information and the download link.
 
 setwd(…) #Set your own working directory. 
 dat <- read.csv("Atlantic_cod_Griffiths_et_al.csv") #Read in the Atlantic cod data frame. 
